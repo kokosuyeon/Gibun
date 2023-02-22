@@ -1,0 +1,72 @@
+/* theme color : #ccccff -> #a0a0ff */
+@font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 18px;
+}
+
+.navbar{
+    background-color:#a0a0ff;
+}
+
+.navbar a {
+    color:#ffffff;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.navbar a:hover {
+    background-color: #a0a0ff;
+    color: black;
+  }
+
+
+
+/* .navbar-brand{
+    color:#ffffff;
+} */
+
+/* 1. 테마 배경색 강하게 */
+#TChard {
+    background-color:#a0a0ff;
+}
+/* 2. 테마 배경색 연하게 */
+#TCsoft {
+    background-color:#ccccff;
+}
+
+h1{
+    font-family: 'ONE-Mobile-POP';
+    font-size: 50px;
+  }
+
+/* 제목 중, 글쓰기 버튼 등과 비율 맞춤이 필요한 제목 */
+h3{
+    font-family: 'ONE-Mobile-POP';
+    font-size: 35px;
+}
+
+/* 정보게시판, ul 태그 기호 삭제, 들여쓰기 삭제 */
+ul{
+   list-style:none;
+   padding-left:0px;
+   }
+
+/* a 클래스 밑줄 제거, 검은 글씨로 변경 */
+ a {
+  color: black;
+  text-decoration: none;
+  }
